@@ -18,10 +18,10 @@ brew install --cask claude-monitor
 
 ## Contents
 
-| Cask | Source | Description |
-|---|---|---|
-| `bifrost-quota-monitor` | [bifrost-usage-monitor](https://github.com/tedwardd/bifrost-usage-monitor) | tmux status bar segment showing Bifrost virtual key budget usage |
-| `claude-monitor` | [tmux-claude-monitor](https://github.com/tedwardd/tmux-claude-monitor) | tmux status bar daemon that displays Claude Pro quota usage |
+| Cask | Description |
+|---|---|
+| [`bifrost-quota-monitor`](https://github.com/tedwardd/bifrost-quota-monitor) | tmux status bar segment showing Bifrost virtual key budget usage |
+| [`claude-monitor`](https://github.com/tedwardd/tmux-claude-monitor) | tmux status bar daemon that displays Claude Pro quota usage |
 
 Both need a one-time `init` after installing, which patches your tmux config and
 installs a launchd agent. See each project's README for setup.
